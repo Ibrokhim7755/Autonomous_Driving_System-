@@ -63,8 +63,7 @@ Lazer nuri obyektga tekkanidan so‘ng, u orqaga — LiDAR sensoriga qaytadi. Se
 3. Masofa hisoblanadi
 Borib-kelish vaqti asosida quyidagicha masofa hisoblanadi:
 
-Masofa
-= nurning borib-kelish vaqti × yorug’lik tezligi / 2
+***Masofa = nurning borib-kelish vaqti * yorug’lik tezligi / 2***
 ​
  
 (chunki nurlar borib va qaytib keladi — shuning uchun 2 ga bo‘linadi)
