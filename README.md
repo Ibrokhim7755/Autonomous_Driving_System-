@@ -350,3 +350,32 @@ Avtonom avtomobil har xil sensorlardan — LiDAR, kamera, radar, GPS, IMU, odome
 
 # Misol
 ![Screenshot (193)](https://github.com/user-attachments/assets/973500b6-0d38-4b96-8b9d-31933e80df7b)
+
+# 🔧 Sensor fusion qanday ishlaydi?
+Sensorlar ma’lumot to‘playdi – Har biri o‘ziga xos axborot beradi.
+
+Ma’lumotlar vaqt bo‘yicha sinxronlashtiriladi.
+
+Algoritm (masalan, Kalman filter, Deep Learning) yordamida:
+
+Noto‘g‘ri ma’lumotlar filtrlab olinadi,
+
+Har xil sensorlardagi qarama-qarshiliklar bartaraf qilinadi,
+
+Eng ishonchli umumiy natija chiqadi.
+
+# 🧠 Eng mashhur algoritmlar:
+Kalman Filter – IMU + GPS birlashtirishda
+
+Extended Kalman Filter (EKF) – nolinear harakatlar uchun
+
+Particle Filter – murakkab lokalizatsiya uchun
+
+Deep Neural Networks – sensorlar bilan object detection, segmentation
+![Screenshot (194)](https://github.com/user-attachments/assets/2b1cd716-091b-43f8-ba45-a45e1e9c3306)
+
+# 🎯 Xulosa:
+Sensor Fusion = “Ko‘rish + Esitish + His qilish” birlashtirilgan sun’iy idrok.
+
+Bu texnologiya avtonom mashinalar uchun inson darajasidagi tushunish yaratish imkonini beradi.
+
