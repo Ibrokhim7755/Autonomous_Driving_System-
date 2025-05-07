@@ -6,7 +6,7 @@ Autonomous driving system (ya'ni, o'z-o'zini boshqaruvchi avtomobil tizimi) — 
 Mashina atrof-muhitni "ko'rish" uchun turli sensorlardan foydalanadi:
 **Kameralar** – yo'l belgilari, chiziqlar, piyodalar va boshqa transport vositalarini aniqlaydi.
 
--**LiDAR** (Light Detection and Ranging) – lazer orqali atrofdagi obyektlarning 3D xaritasini tuzadi.
+- **LiDAR** (Light Detection and Ranging) – lazer orqali atrofdagi obyektlarning 3D xaritasini tuzadi.
 
 **Radar** – uzoq masofadagi harakatlanuvchi obyektlarni aniqlaydi.
 
