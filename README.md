@@ -316,4 +316,25 @@ Bu hisob-kitoblar orqali mashina:
 "Qaysi yo‘nalishda harakatlandim?"**
 — degan savollarga javob oladi.
 
+![Screenshot (191)](https://github.com/user-attachments/assets/0fa8108b-a5a1-42fb-8d83-730f96cde3f7)
 
+# 🧠 Odometry nima uchun kerak?
+Joylashuvni aniqlash (GPS bo‘lmasa ham, ayniqsa yopiq joylarda)
+
+Trajektoriyani tiklash (qayerdan qayerga harakat qildi)
+
+SLAM tizimida pozitsiyani aniqlashda asosiy qadam
+
+Harakatni bashorat qilish (prediction)
+
+# ⚠️ Kamchiliklari:
+Odometry xatolik to‘playdi (error accumulation): vaqt o‘tishi bilan aniqlik pasayadi.
+
+Bu xatolikni kamaytirish uchun boshqa sensorlar bilan fusion (birlashtirish) qilinadi:
+➤ GNSS, LiDAR, kamera, map-based localization
+# 🎯 Misol:
+Agar mashina g‘ildiragi 100 marta aylansa va har bir aylanish 0.5 m bo‘lsa:
+
+Masofa = 100 * 0.5 = 50 metr
+
+Ammo yo‘l silliq bo‘lmasa, sirpanish bo‘lsa — xatolik paydo bo‘ladi. Shuning uchun IMU va boshqa sensorlar yordam beradi.
