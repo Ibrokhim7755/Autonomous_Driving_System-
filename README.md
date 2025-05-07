@@ -259,4 +259,35 @@ Ba’zan bir nechta obyektni ajratolmasligi mumkin
 
 Uchalasining kombinatsiyasi avtonom mashinalar uchun kuchli idrok tizimini hosil qiladi.
 
+# 🛰️ 1. GPS va GNSS nima?
+**📌 GPS (Global Positioning System)**
+AQShga tegishli sun’iy yo‘ldoshlar tizimi.
+
+Faqatgina GPS ishlatilsa, bu faqat bitta GNSS tizimi hisoblanadi.
+
+📌 GNSS (Global Navigation Satellite System)
+Umumiy atama bo‘lib, barcha global yo‘ldosh tizimlarini o‘z ichiga oladi:
+
+GPS (AQSh)
+
+GLONASS (Rossiya)
+
+Galileo (Yevropa)
+
+BeiDou (Xitoy)
+
+va boshqalar
+
+🧠 GPS — GNSS’ning bir qismi. Ko‘p GNSS tizimlari birgalikda ishlatilsa, joylashuv aniqligi oshadi.
+
+# 🚗 Avtonom haydashda GPS/GNSS nima ish qiladi?
+✅ 1. Global pozitsiyani aniqlaydi
+Mashina dunyoning qayerida (xaritada) joylashganini aniqlaydi: kenglik, uzunlik, balandlik koordinatalari bilan.
+
+✅ 2. Xarita bilan sinxronlashtiriladi
+Mashinaning real vaqtdagi joylashuvi HD (High-Definition) xarita bilan moslashtiriladi.
+
+✅ 3. Yo‘l topish (navigation) va rejalashtirish
+Mashina manzildan manzilga borishda GPS koordinatalar asosida marshrutni tanlaydi.
+
 
