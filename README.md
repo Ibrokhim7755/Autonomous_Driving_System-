@@ -212,9 +212,5 @@ Harakatni kuzatish (pose estimation)
 SLAM (Simultaneous Localization and Mapping)
 
 
-# 🧠 Qisqacha yakun:
-Tushuncha	Vazifasi
-Point Cloud	Atrof-muhitning 3D ko‘rinishini ta’minlaydi
-Ground Plane Detection	Yer sathini ajratib, yuqoridagi obyektlarni aniqlashga yordam beradi
-Noise Removal	Noto‘g‘ri yoki keraksiz nuqtalarni olib tashlaydi
-ICP	Ikki 3D point cloud’ni bir-biriga moslashtiradi
+![Screenshot (188)](https://github.com/user-attachments/assets/c3662e14-395a-4f25-8776-3e004dbea00b)
+
