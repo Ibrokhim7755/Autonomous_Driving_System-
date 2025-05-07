@@ -301,4 +301,19 @@ Shuning uchun, GNSS odatda:
 
 - LiDAR/kamera asosida SLAM (Simultaneous Localization and Mapping) bilan birgalikda ishlatiladi.
 
+# 📌 Odometry nima?
+Odometry — bu harakatni hisoblash usuli bo‘lib, odatda:
+
+G‘ildirak aylanishi,
+
+IMU (Inertial Measurement Unit),
+
+va boshqa sensorlar orqali aniqlanadi.
+
+Bu hisob-kitoblar orqali mashina:
+
+**"Men qancha masofani bosib o‘tdim?"
+"Qaysi yo‘nalishda harakatlandim?"**
+— degan savollarga javob oladi.
+
 
