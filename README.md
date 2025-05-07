@@ -214,3 +214,29 @@ SLAM (Simultaneous Localization and Mapping)
 
 ![Screenshot (188)](https://github.com/user-attachments/assets/c3662e14-395a-4f25-8776-3e004dbea00b)
 
+# 📡 RADAR qanday ishlaydi?
+Radio to‘lqin yuboradi
+RADAR moslamasi yuqori chastotali radio signallar (elektromagnit to‘lqinlar)ni atrofga yuboradi.
+
+Obyektga uriladi va qaytadi
+Bu signal qandaydir obyektga (masalan, mashina, devor) uriladi va orqaga qaytadi (refleksiya).
+
+Qaytgan to‘lqinni qabul qiladi
+RADAR qurilmasi qaytgan signalni qabul qiladi va uning:
+
+Qaytish vaqtini o‘lchaydi (masofa hisoblanadi),
+
+Doppler o‘zgarishini (signal chastotasidagi o‘zgarish) o‘lchab obyektning tezligini aniqlaydi.
+
+![Screenshot (189)](https://github.com/user-attachments/assets/c5e581a2-79c0-4450-9c3e-c9492c48916e)
+
+# 🚘 RADAR avtonom mashinalarda qanday ishlatiladi?
+- Old RADAR – oldindagi mashinalar bilan masofani saqlaydi (adaptive cruise control)
+
+- Yon RADAR – o‘zgartirilayotgan yo‘lda mashinalarni aniqlaydi
+
+-- Orqa RADAR – orqadan yaqinlashayotgan transportni bildiradi (blind spot detection)
+
+
+
+
