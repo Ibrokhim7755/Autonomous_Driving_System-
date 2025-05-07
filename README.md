@@ -119,5 +119,23 @@ Anomaliyalarni aniqlash (masalan, kutilmagan nuqtalar)
 LiDAR — ma’lumot to‘playdi,
 KNN — o‘sha ma’lumot asosida tahlil yoki tasniflash qiladi.
 
+# ☁️ 1. Point Cloud (Nuqta buluti)
+Ta’rif:
+Point cloud — bu 3D makondagi nuqtalar to‘plami, har bir nuqta odatda (x, y, z) koordinatalariga ega. Bu nuqtalar LiDAR, stereo kameralar yoki boshqa 3D skanerlar yordamida yaratiladi.
 
+Ma’no jihatidan:
+
+Har bir nuqta obyektning tashqi yuzasidagi bir nuqtani ifodalaydi.
+
+Minglab nuqtalar yig‘ilib, real dunyoning 3D modelini hosil qiladi.
+
+Rang (RGB), zichlik, reflektivlik kabi qo‘shimcha atributlar ham bo‘lishi mumkin.
+
+**📌 Qo‘llaniladi:**
+
+3D kartografiya
+
+Obyekt tanish
+
+Robotika va avtonom haydash
 
