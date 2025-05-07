@@ -86,5 +86,38 @@ Qimmat
 
 Yomg‘ir, qor yoki changli ob-havo aniqlikka ta'sir qilishi mumkin
 
+# 🔗 LiDAR va KNN o‘rtasidagi bog‘liqlik
+**🟢 1. LiDAR ma’lumotlari – “Point Cloud”**
+LiDAR atrofdagi obyektlar haqida minglab 3D nuqtalar (point cloud) shaklida ma’lumot to‘playdi. Har bir nuqta x, y, z koordinatalariga ega bo‘ladi.
+
+🟢 2. Bu nuqtalarni guruhlash yoki tasniflash kerak
+Masalan:
+
+Bu nuqtalar avtomobilga, piyodaga, yoki yo‘l chetiga tegishli ekanini aniqlash.
+
+Ya’ni, har bir nuqtani toifalash (classification) yoki obyektlarga ajratish (clustering).
+
+🟢 3. KNN bu yerda ishlatiladi
+KNN (K-Eng yaqin qo‘shni algoritmi) yordamida:
+
+Har bir nuqtaga eng yaqin K ta qo‘shni nuqta topiladi.
+
+Ularning toifasiga qarab, markaziy nuqtaning qaysi obyektga tegishli ekanini aniqlash mumkin.
+
+Masalan: Agar nuqtaning atrofidagi 5 ta qo‘shni nuqtaning 4 tasi "piyoda" bo‘lsa, u nuqta ham "piyoda" deb belgilanishi mumkin.
+
+📦 KNN LiDAR ma’lumotlarida ishlatiladigan joylar:
+Obyektlarni tasniflash (classification)
+
+Segmentatsiya (nuqtalarni guruhlarga ajratish)
+
+Anomaliyalarni aniqlash (masalan, kutilmagan nuqtalar)
+
+3D harita yaratishda filtratsiya (keraksiz nuqtalarni olib tashlash)
+
+# 🧠 Qisqacha:
+LiDAR — ma’lumot to‘playdi,
+KNN — o‘sha ma’lumot asosida tahlil yoki tasniflash qiladi.
+
 
 
