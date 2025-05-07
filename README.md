@@ -139,3 +139,74 @@ Obyekt tanish
 
 Robotika va avtonom haydash
 
+
+# 🌍 2. Ground Plane Detection va Noise Removal (Zaminni aniqlash va shovqinni tozalash)
+**✅ Ground Plane Detection (Yer sathini aniqlash)**
+LiDAR point cloud’ida ko‘p nuqtalar yo‘l yoki yer sathiga tegishli bo‘ladi.
+
+Bu sathni aniqlash orqali:
+👉 Piyodalar, mashinalar, devorlar kabi zamin ustidagi obyektlar ajratiladi.
+
+**📌 Algoritmlar:**
+
+RANSAC (Random Sample Consensus) — eng ko‘p mos keluvchi tekislikni topadi.
+
+Plane fitting — tekislik tenglamasi 
+𝑎
+𝑥
++
+𝑏
+𝑦
++
+𝑐
+𝑧
++
+𝑑
+=
+0
+ax+by+cz+d=0 ga eng mos nuqtalarni tanlash.
+
+**🚫 Noise Removal (Shovqinli nuqtalarni olib tashlash)**
+LiDARda sensorga xalaqit beruvchi yoki notog‘ri o‘lchangan nuqtalar bo‘lishi mumkin.
+
+Masalan: havoda suzib yurgan yolg‘iz nuqtalar, o‘tkinchi qush, yomg‘ir tomchisi va hokazo.
+
+**📌 Usullar:**
+
+Statistik filtr – o‘rtacha masofadan juda uzoq nuqtalar olib tashlanadi.
+
+Voxel filtering – 3D grid bo‘lib, har bir kichik hajmli qutida faqat bitta nuqta qoldiriladi.
+
+Radius filter – agar nuqtaning atrofida yetarlicha yaqin qo‘shnilar bo‘lmasa, u olib tashlanadi.
+
+**🔁 3. Iterative Closest Point (ICP)**
+Ta’rif:
+ICP — bu ikki xil point cloud (nuqta buluti) o‘rtasida joylashuv va burilish (transformation) topish uchun ishlatiladigan algoritm.
+
+Ma’no jihatidan:
+
+Sizda A point cloud va B point cloud bor.
+
+Ular bir xil sahnani ifodalaydi, lekin turli pozitsiyada bo‘lishi mumkin.
+
+ICP orqali B ni A ga "moslashtirish" mumkin.
+
+**📌 Qanday ishlaydi?**
+
+Har bir nuqtaga eng yaqin qo‘shni nuqtani (correspondence) topadi.
+
+Bular orasidagi eng yaxshi siljish (translation) va burilish (rotation) topiladi.
+
+Bu transformatsiyani qo‘llaydi.
+
+Yangi joylashuv asosida qayta takrorlaydi.
+
+Natija convergence bo‘lguncha davom etadi (ya'ni farq juda kichik bo‘lgunga qadar).
+
+**📌 Qo‘llaniladi:**
+
+3D point cloudlarni align qilish
+
+Harakatni kuzatish (pose estimation)
+
+SLAM (Simultaneous Localization and Mapping)
