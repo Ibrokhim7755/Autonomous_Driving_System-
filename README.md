@@ -338,3 +338,15 @@ Agar mashina g‘ildiragi 100 marta aylansa va har bir aylanish 0.5 m bo‘lsa:
 Masofa = 100 * 0.5 = 50 metr
 
 Ammo yo‘l silliq bo‘lmasa, sirpanish bo‘lsa — xatolik paydo bo‘ladi. Shuning uchun IMU va boshqa sensorlar yordam beradi.
+
+![Screenshot (192)](https://github.com/user-attachments/assets/633312d3-ccde-4d23-afd7-99c4d3563aad)
+
+
+## Sensor Fusion
+— bu bir nechta sensorlardan olingan ma’lumotlarni birlashtirib, aniq va ishonchli qaror chiqarish jarayonidir.
+
+**🧠 Oddiy qilib aytganda:**
+Avtonom avtomobil har xil sensorlardan — LiDAR, kamera, radar, GPS, IMU, odometry — turli-tuman ma’lumotlarni oladi. Har bir sensorning kuchli va zaif tomonlari bor. Sensor fusion yordamida bu ma’lumotlar aqlli tarzda birlashtirilib, yaxlit va aniq “qarash” hosil qilinadi.
+
+# Misol
+![Screenshot (193)](https://github.com/user-attachments/assets/973500b6-0d38-4b96-8b9d-31933e80df7b)
