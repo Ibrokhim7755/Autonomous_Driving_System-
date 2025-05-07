@@ -210,3 +210,11 @@ Natija convergence bo‘lguncha davom etadi (ya'ni farq juda kichik bo‘lgunga 
 Harakatni kuzatish (pose estimation)
 
 SLAM (Simultaneous Localization and Mapping)
+
+
+# 🧠 Qisqacha yakun:
+Tushuncha	Vazifasi
+Point Cloud	Atrof-muhitning 3D ko‘rinishini ta’minlaydi
+Ground Plane Detection	Yer sathini ajratib, yuqoridagi obyektlarni aniqlashga yordam beradi
+Noise Removal	Noto‘g‘ri yoki keraksiz nuqtalarni olib tashlaydi
+ICP	Ikki 3D point cloud’ni bir-biriga moslashtiradi
