@@ -14,7 +14,7 @@ Mashina atrof-muhitni "ko'rish" uchun turli sensorlardan foydalanadi:
 
 - **GPS va IMU (Inertial Measurement Unit)** – aniq joylashuvni aniqlaydi va harakat yo'nalishini kuzatib boradi.
 
-  🧠 **2. Perception (Idrok qilish)**
+ 🧠 **2. Perception (Idrok qilish)**
 Sensorlardan kelgan ma'lumotlar asosida mashina:
 
 - Yo‘l chiziqlarini,
@@ -26,4 +26,31 @@ Sensorlardan kelgan ma'lumotlar asosida mashina:
 - Yo‘l belgilarini va svetoforlarni aniqlaydi.
 
 Bu bosqichda kompyuter ko‘rish (computer vision) va sun’iy intellekt (AI) ishlatiladi.
+
+**🧠 3. Localization (Aniq joylashuvni aniqlash)**
+Mashina o‘zini xaritada aniq qaerda joylashganini aniqlaydi. GPS + sensorlar yordamida 10–20 sm aniqlikda pozitsiya topiladi.
+
+**🧠 4. Planning (Rejalashtirish)**
+Mashina:
+
+Qayerdan qayerga borishni,
+
+Harakat yo‘nalishini,
+
+Qanday qilib xavfsiz burilishni yoki to‘xtashni rejalashtiradi.
+
+Bu bosqichda algoritmlar yo‘l harakati qoidalariga mos ravishda qarorlar qabul qiladi.
+
+**🧠 5. Control (Boshqaruv)**
+Oxirgi bosqichda mashina:
+
+Rulni buradi,
+
+Tezlikni oshiradi yoki kamaytiradi,
+
+Tormoz bosadi.
+
+Bularning barchasi avtomatik ravishda, inson yordamisiz amalga oshiriladi.
+
+
 
