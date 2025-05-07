@@ -290,4 +290,15 @@ Mashinaning real vaqtdagi joylashuvi HD (High-Definition) xarita bilan moslashti
 ✅ 3. Yo‘l topish (navigation) va rejalashtirish
 Mashina manzildan manzilga borishda GPS koordinatalar asosida marshrutni tanlaydi.
 
+![Screenshot (190)](https://github.com/user-attachments/assets/74f04212-c5e5-49de-b533-c7f85136d09d)
+
+# ⚠️ Qanday cheklovlar bor?
+Tunnellar, baland binolar, yoki daraxtzorlar ostida GPS signali yo‘qolishi mumkin.
+
+Shuning uchun, GNSS odatda:
+
+- IMU (tezlanish va burilish sensorlari)
+
+- LiDAR/kamera asosida SLAM (Simultaneous Localization and Mapping) bilan birgalikda ishlatiladi.
+
 
