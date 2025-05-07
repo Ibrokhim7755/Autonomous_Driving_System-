@@ -235,8 +235,28 @@ Doppler o‘zgarishini (signal chastotasidagi o‘zgarish) o‘lchab obyektning 
 
 - Yon RADAR – o‘zgartirilayotgan yo‘lda mashinalarni aniqlaydi
 
--- Orqa RADAR – orqadan yaqinlashayotgan transportni bildiradi (blind spot detection)
+- Orqa RADAR – orqadan yaqinlashayotgan transportni bildiradi (blind spot detection)
 
+# ⚖️ RADAR’ning afzalliklari va kamchiliklari
+✅ Afzalliklari:
+Yomg‘ir, qor, tumanda ham yaxshi ishlaydi
 
+Uzoq masofani aniqlay oladi (100m+)
+
+Obyektning tezligini to‘g‘ri aniqlaydi
+
+# ❌ Kamchiliklari:
+Pastroq aniqlik (xususan obyekt shakli va o‘lchami haqida)
+
+3D ko‘rinish hosil qila olmaydi (LiDAR singari emas)
+
+Ba’zan bir nechta obyektni ajratolmasligi mumkin
+
+# 🧠 Qisqacha:
+- RADAR — masofa va tezlikni aniqlaydi.
+- LiDAR — shakl va strukturani aniqlaydi.
+- Kamera — rang va vizual ma’lumot beradi.
+
+Uchalasining kombinatsiyasi avtonom mashinalar uchun kuchli idrok tizimini hosil qiladi.
 
 
